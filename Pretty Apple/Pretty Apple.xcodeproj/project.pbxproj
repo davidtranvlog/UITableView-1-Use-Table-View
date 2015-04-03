@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5BF7E031AC73954008BF3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E021AC73954008BF3DC /* AppDelegate.swift */; };
+		F5BF7E051AC73954008BF3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E041AC73954008BF3DC /* ViewController.swift */; };
+		F5BF7E081AC73954008BF3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E061AC73954008BF3DC /* Main.storyboard */; };
+		F5BF7E0A1AC73954008BF3DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E091AC73954008BF3DC /* Images.xcassets */; };
+		F5BF7E0D1AC73954008BF3DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E0B1AC73954008BF3DC /* LaunchScreen.xib */; };
+		F5BF7E191AC73954008BF3DC /* Pretty_AppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E181AC73954008BF3DC /* Pretty_AppleTests.swift */; };
+		F5BF7E481AC73996008BF3DC /* airport-express.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E231AC73996008BF3DC /* airport-express.tif */; };
+		F5BF7E491AC73996008BF3DC /* airport-extreme.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E241AC73996008BF3DC /* airport-extreme.tif */; };
+		F5BF7E4A1AC73996008BF3DC /* airport-time-capsule.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E251AC73996008BF3DC /* airport-time-capsule.tif */; };
+		F5BF7E4B1AC73996008BF3DC /* aperture.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E261AC73996008BF3DC /* aperture.tif */; };
+		F5BF7E4C1AC73996008BF3DC /* apple-pay.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E271AC73996008BF3DC /* apple-pay.tif */; };
+		F5BF7E4D1AC73996008BF3DC /* apple-tv.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E281AC73996008BF3DC /* apple-tv.tif */; };
+		F5BF7E4E1AC73996008BF3DC /* apple-watch.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E291AC73996008BF3DC /* apple-watch.tif */; };
+		F5BF7E4F1AC73996008BF3DC /* apple-wireless-keyboard.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2A1AC73996008BF3DC /* apple-wireless-keyboard.tif */; };
+		F5BF7E501AC73996008BF3DC /* battery-charger.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2B1AC73996008BF3DC /* battery-charger.tif */; };
+		F5BF7E511AC73996008BF3DC /* default@1x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2C1AC73996008BF3DC /* default@1x.pdf */; };
+		F5BF7E521AC73996008BF3DC /* default@2x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2D1AC73996008BF3DC /* default@2x.pdf */; };
+		F5BF7E531AC73996008BF3DC /* display.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2E1AC73996008BF3DC /* display.tif */; };
+		F5BF7E541AC73996008BF3DC /* eyeball.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E2F1AC73996008BF3DC /* eyeball.png */; };
+		F5BF7E551AC73996008BF3DC /* final-cut-pro-x.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E301AC73996008BF3DC /* final-cut-pro-x.tif */; };
+		F5BF7E561AC73996008BF3DC /* icloud.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E311AC73996008BF3DC /* icloud.tif */; };
+		F5BF7E571AC73996008BF3DC /* ilife.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E321AC73996008BF3DC /* ilife.tif */; };
+		F5BF7E581AC73996008BF3DC /* imac-5k.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E331AC73996008BF3DC /* imac-5k.tif */; };
+		F5BF7E591AC73996008BF3DC /* ios8.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E341AC73996008BF3DC /* ios8.tif */; };
+		F5BF7E5A1AC73996008BF3DC /* ipad-air2.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E351AC73996008BF3DC /* ipad-air2.tif */; };
+		F5BF7E5B1AC73996008BF3DC /* iphone6.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E361AC73996008BF3DC /* iphone6.tif */; };
+		F5BF7E5C1AC73996008BF3DC /* ipod-nano.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E371AC73996008BF3DC /* ipod-nano.tif */; };
+		F5BF7E5D1AC73996008BF3DC /* ipod-shuffle.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E381AC73996008BF3DC /* ipod-shuffle.tif */; };
+		F5BF7E5E1AC73996008BF3DC /* ipod-touch.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E391AC73996008BF3DC /* ipod-touch.tif */; };
+		F5BF7E5F1AC73996008BF3DC /* itunes.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3A1AC73996008BF3DC /* itunes.tif */; };
+		F5BF7E601AC73996008BF3DC /* iwork.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3B1AC73996008BF3DC /* iwork.tif */; };
+		F5BF7E611AC73996008BF3DC /* logic-pro-x.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3C1AC73996008BF3DC /* logic-pro-x.tif */; };
+		F5BF7E621AC73996008BF3DC /* mac-mini.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3D1AC73996008BF3DC /* mac-mini.tif */; };
+		F5BF7E631AC73996008BF3DC /* mac-pro.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3E1AC73996008BF3DC /* mac-pro.tif */; };
+		F5BF7E641AC73996008BF3DC /* macbook-air.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E3F1AC73996008BF3DC /* macbook-air.tif */; };
+		F5BF7E651AC73996008BF3DC /* macbook-pro-13.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E401AC73996008BF3DC /* macbook-pro-13.tif */; };
+		F5BF7E661AC73996008BF3DC /* macbook-pro-retina.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E411AC73996008BF3DC /* macbook-pro-retina.tif */; };
+		F5BF7E671AC73996008BF3DC /* macbook.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E421AC73996008BF3DC /* macbook.tif */; };
+		F5BF7E681AC73996008BF3DC /* magic-mouse.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E431AC73996008BF3DC /* magic-mouse.tif */; };
+		F5BF7E691AC73996008BF3DC /* magic-trackpad.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E441AC73996008BF3DC /* magic-trackpad.tif */; };
+		F5BF7E6A1AC73996008BF3DC /* os-x.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E451AC73996008BF3DC /* os-x.tif */; };
+		F5BF7E6B1AC73996008BF3DC /* star_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E461AC73996008BF3DC /* star_sel.png */; };
+		F5BF7E6C1AC73996008BF3DC /* star_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BF7E471AC73996008BF3DC /* star_uns.png */; };
+		F5BF7E701AC73999008BF3DC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E6E1AC73999008BF3DC /* Product.swift */; };
+		F5BF7E711AC73999008BF3DC /* ProductLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E6F1AC73999008BF3DC /* ProductLine.swift */; };
+		F5BF7E731AC73AA0008BF3DC /* AppleProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF7E721AC73AA0008BF3DC /* AppleProductsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5BF7E131AC73954008BF3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BF7DF51AC73954008BF3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BF7DFC1AC73954008BF3DC;
+			remoteInfo = "Pretty Apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5BF7DFD1AC73954008BF3DC /* Pretty Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF7E011AC73954008BF3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BF7E021AC73954008BF3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5BF7E041AC73954008BF3DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5BF7E071AC73954008BF3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5BF7E091AC73954008BF3DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5BF7E0C1AC73954008BF3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5BF7E121AC73954008BF3DC /* Pretty AppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty AppleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF7E171AC73954008BF3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BF7E181AC73954008BF3DC /* Pretty_AppleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_AppleTests.swift; sourceTree = "<group>"; };
+		F5BF7E231AC73996008BF3DC /* airport-express.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "airport-express.tif"; sourceTree = "<group>"; };
+		F5BF7E241AC73996008BF3DC /* airport-extreme.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "airport-extreme.tif"; sourceTree = "<group>"; };
+		F5BF7E251AC73996008BF3DC /* airport-time-capsule.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "airport-time-capsule.tif"; sourceTree = "<group>"; };
+		F5BF7E261AC73996008BF3DC /* aperture.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = aperture.tif; sourceTree = "<group>"; };
+		F5BF7E271AC73996008BF3DC /* apple-pay.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "apple-pay.tif"; sourceTree = "<group>"; };
+		F5BF7E281AC73996008BF3DC /* apple-tv.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "apple-tv.tif"; sourceTree = "<group>"; };
+		F5BF7E291AC73996008BF3DC /* apple-watch.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "apple-watch.tif"; sourceTree = "<group>"; };
+		F5BF7E2A1AC73996008BF3DC /* apple-wireless-keyboard.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "apple-wireless-keyboard.tif"; sourceTree = "<group>"; };
+		F5BF7E2B1AC73996008BF3DC /* battery-charger.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "battery-charger.tif"; sourceTree = "<group>"; };
+		F5BF7E2C1AC73996008BF3DC /* default@1x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default@1x.pdf"; sourceTree = "<group>"; };
+		F5BF7E2D1AC73996008BF3DC /* default@2x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default@2x.pdf"; sourceTree = "<group>"; };
+		F5BF7E2E1AC73996008BF3DC /* display.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = display.tif; sourceTree = "<group>"; };
+		F5BF7E2F1AC73996008BF3DC /* eyeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeball.png; sourceTree = "<group>"; };
+		F5BF7E301AC73996008BF3DC /* final-cut-pro-x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "final-cut-pro-x.tif"; sourceTree = "<group>"; };
+		F5BF7E311AC73996008BF3DC /* icloud.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icloud.tif; sourceTree = "<group>"; };
+		F5BF7E321AC73996008BF3DC /* ilife.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ilife.tif; sourceTree = "<group>"; };
+		F5BF7E331AC73996008BF3DC /* imac-5k.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "imac-5k.tif"; sourceTree = "<group>"; };
+		F5BF7E341AC73996008BF3DC /* ios8.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ios8.tif; sourceTree = "<group>"; };
+		F5BF7E351AC73996008BF3DC /* ipad-air2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ipad-air2.tif"; sourceTree = "<group>"; };
+		F5BF7E361AC73996008BF3DC /* iphone6.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = iphone6.tif; sourceTree = "<group>"; };
+		F5BF7E371AC73996008BF3DC /* ipod-nano.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ipod-nano.tif"; sourceTree = "<group>"; };
+		F5BF7E381AC73996008BF3DC /* ipod-shuffle.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ipod-shuffle.tif"; sourceTree = "<group>"; };
+		F5BF7E391AC73996008BF3DC /* ipod-touch.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ipod-touch.tif"; sourceTree = "<group>"; };
+		F5BF7E3A1AC73996008BF3DC /* itunes.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = itunes.tif; sourceTree = "<group>"; };
+		F5BF7E3B1AC73996008BF3DC /* iwork.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = iwork.tif; sourceTree = "<group>"; };
+		F5BF7E3C1AC73996008BF3DC /* logic-pro-x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "logic-pro-x.tif"; sourceTree = "<group>"; };
+		F5BF7E3D1AC73996008BF3DC /* mac-mini.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac-mini.tif"; sourceTree = "<group>"; };
+		F5BF7E3E1AC73996008BF3DC /* mac-pro.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac-pro.tif"; sourceTree = "<group>"; };
+		F5BF7E3F1AC73996008BF3DC /* macbook-air.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "macbook-air.tif"; sourceTree = "<group>"; };
+		F5BF7E401AC73996008BF3DC /* macbook-pro-13.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "macbook-pro-13.tif"; sourceTree = "<group>"; };
+		F5BF7E411AC73996008BF3DC /* macbook-pro-retina.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "macbook-pro-retina.tif"; sourceTree = "<group>"; };
+		F5BF7E421AC73996008BF3DC /* macbook.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = macbook.tif; sourceTree = "<group>"; };
+		F5BF7E431AC73996008BF3DC /* magic-mouse.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "magic-mouse.tif"; sourceTree = "<group>"; };
+		F5BF7E441AC73996008BF3DC /* magic-trackpad.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "magic-trackpad.tif"; sourceTree = "<group>"; };
+		F5BF7E451AC73996008BF3DC /* os-x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "os-x.tif"; sourceTree = "<group>"; };
+		F5BF7E461AC73996008BF3DC /* star_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_sel.png; sourceTree = "<group>"; };
+		F5BF7E471AC73996008BF3DC /* star_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_uns.png; sourceTree = "<group>"; };
+		F5BF7E6E1AC73999008BF3DC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F5BF7E6F1AC73999008BF3DC /* ProductLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLine.swift; sourceTree = "<group>"; };
+		F5BF7E721AC73AA0008BF3DC /* AppleProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleProductsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BF7DFA1AC73954008BF3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF7E0F1AC73954008BF3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5BF7DF41AC73954008BF3DC = {
+			isa = PBXGroup;
+			children = (
+				F5BF7DFF1AC73954008BF3DC /* Pretty Apple */,
+				F5BF7E151AC73954008BF3DC /* Pretty AppleTests */,
+				F5BF7DFE1AC73954008BF3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BF7DFE1AC73954008BF3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7DFD1AC73954008BF3DC /* Pretty Apple.app */,
+				F5BF7E121AC73954008BF3DC /* Pretty AppleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BF7DFF1AC73954008BF3DC /* Pretty Apple */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E021AC73954008BF3DC /* AppDelegate.swift */,
+				F5BF7E041AC73954008BF3DC /* ViewController.swift */,
+				F5BF7E721AC73AA0008BF3DC /* AppleProductsTableViewController.swift */,
+				F5BF7E061AC73954008BF3DC /* Main.storyboard */,
+				F5BF7E091AC73954008BF3DC /* Images.xcassets */,
+				F5BF7E0B1AC73954008BF3DC /* LaunchScreen.xib */,
+				F5BF7E6D1AC73999008BF3DC /* Model */,
+				F5BF7E221AC73996008BF3DC /* DemoAssets */,
+				F5BF7E001AC73954008BF3DC /* Supporting Files */,
+			);
+			path = "Pretty Apple";
+			sourceTree = "<group>";
+		};
+		F5BF7E001AC73954008BF3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E011AC73954008BF3DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5BF7E151AC73954008BF3DC /* Pretty AppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E181AC73954008BF3DC /* Pretty_AppleTests.swift */,
+				F5BF7E161AC73954008BF3DC /* Supporting Files */,
+			);
+			path = "Pretty AppleTests";
+			sourceTree = "<group>";
+		};
+		F5BF7E161AC73954008BF3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E171AC73954008BF3DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5BF7E221AC73996008BF3DC /* DemoAssets */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E231AC73996008BF3DC /* airport-express.tif */,
+				F5BF7E241AC73996008BF3DC /* airport-extreme.tif */,
+				F5BF7E251AC73996008BF3DC /* airport-time-capsule.tif */,
+				F5BF7E261AC73996008BF3DC /* aperture.tif */,
+				F5BF7E271AC73996008BF3DC /* apple-pay.tif */,
+				F5BF7E281AC73996008BF3DC /* apple-tv.tif */,
+				F5BF7E291AC73996008BF3DC /* apple-watch.tif */,
+				F5BF7E2A1AC73996008BF3DC /* apple-wireless-keyboard.tif */,
+				F5BF7E2B1AC73996008BF3DC /* battery-charger.tif */,
+				F5BF7E2C1AC73996008BF3DC /* default@1x.pdf */,
+				F5BF7E2D1AC73996008BF3DC /* default@2x.pdf */,
+				F5BF7E2E1AC73996008BF3DC /* display.tif */,
+				F5BF7E2F1AC73996008BF3DC /* eyeball.png */,
+				F5BF7E301AC73996008BF3DC /* final-cut-pro-x.tif */,
+				F5BF7E311AC73996008BF3DC /* icloud.tif */,
+				F5BF7E321AC73996008BF3DC /* ilife.tif */,
+				F5BF7E331AC73996008BF3DC /* imac-5k.tif */,
+				F5BF7E341AC73996008BF3DC /* ios8.tif */,
+				F5BF7E351AC73996008BF3DC /* ipad-air2.tif */,
+				F5BF7E361AC73996008BF3DC /* iphone6.tif */,
+				F5BF7E371AC73996008BF3DC /* ipod-nano.tif */,
+				F5BF7E381AC73996008BF3DC /* ipod-shuffle.tif */,
+				F5BF7E391AC73996008BF3DC /* ipod-touch.tif */,
+				F5BF7E3A1AC73996008BF3DC /* itunes.tif */,
+				F5BF7E3B1AC73996008BF3DC /* iwork.tif */,
+				F5BF7E3C1AC73996008BF3DC /* logic-pro-x.tif */,
+				F5BF7E3D1AC73996008BF3DC /* mac-mini.tif */,
+				F5BF7E3E1AC73996008BF3DC /* mac-pro.tif */,
+				F5BF7E3F1AC73996008BF3DC /* macbook-air.tif */,
+				F5BF7E401AC73996008BF3DC /* macbook-pro-13.tif */,
+				F5BF7E411AC73996008BF3DC /* macbook-pro-retina.tif */,
+				F5BF7E421AC73996008BF3DC /* macbook.tif */,
+				F5BF7E431AC73996008BF3DC /* magic-mouse.tif */,
+				F5BF7E441AC73996008BF3DC /* magic-trackpad.tif */,
+				F5BF7E451AC73996008BF3DC /* os-x.tif */,
+				F5BF7E461AC73996008BF3DC /* star_sel.png */,
+				F5BF7E471AC73996008BF3DC /* star_uns.png */,
+			);
+			path = DemoAssets;
+			sourceTree = "<group>";
+		};
+		F5BF7E6D1AC73999008BF3DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF7E6E1AC73999008BF3DC /* Product.swift */,
+				F5BF7E6F1AC73999008BF3DC /* ProductLine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BF7DFC1AC73954008BF3DC /* Pretty Apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BF7E1C1AC73954008BF3DC /* Build configuration list for PBXNativeTarget "Pretty Apple" */;
+			buildPhases = (
+				F5BF7DF91AC73954008BF3DC /* Sources */,
+				F5BF7DFA1AC73954008BF3DC /* Frameworks */,
+				F5BF7DFB1AC73954008BF3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pretty Apple";
+			productName = "Pretty Apple";
+			productReference = F5BF7DFD1AC73954008BF3DC /* Pretty Apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5BF7E111AC73954008BF3DC /* Pretty AppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BF7E1F1AC73954008BF3DC /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */;
+			buildPhases = (
+				F5BF7E0E1AC73954008BF3DC /* Sources */,
+				F5BF7E0F1AC73954008BF3DC /* Frameworks */,
+				F5BF7E101AC73954008BF3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BF7E141AC73954008BF3DC /* PBXTargetDependency */,
+			);
+			name = "Pretty AppleTests";
+			productName = "Pretty AppleTests";
+			productReference = F5BF7E121AC73954008BF3DC /* Pretty AppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BF7DF51AC73954008BF3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Duc Tran";
+				TargetAttributes = {
+					F5BF7DFC1AC73954008BF3DC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F5BF7E111AC73954008BF3DC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F5BF7DFC1AC73954008BF3DC;
+					};
+				};
+			};
+			buildConfigurationList = F5BF7DF81AC73954008BF3DC /* Build configuration list for PBXProject "Pretty Apple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BF7DF41AC73954008BF3DC;
+			productRefGroup = F5BF7DFE1AC73954008BF3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BF7DFC1AC73954008BF3DC /* Pretty Apple */,
+				F5BF7E111AC73954008BF3DC /* Pretty AppleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BF7DFB1AC73954008BF3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BF7E591AC73996008BF3DC /* ios8.tif in Resources */,
+				F5BF7E5E1AC73996008BF3DC /* ipod-touch.tif in Resources */,
+				F5BF7E5A1AC73996008BF3DC /* ipad-air2.tif in Resources */,
+				F5BF7E691AC73996008BF3DC /* magic-trackpad.tif in Resources */,
+				F5BF7E5F1AC73996008BF3DC /* itunes.tif in Resources */,
+				F5BF7E511AC73996008BF3DC /* default@1x.pdf in Resources */,
+				F5BF7E6A1AC73996008BF3DC /* os-x.tif in Resources */,
+				F5BF7E641AC73996008BF3DC /* macbook-air.tif in Resources */,
+				F5BF7E4A1AC73996008BF3DC /* airport-time-capsule.tif in Resources */,
+				F5BF7E491AC73996008BF3DC /* airport-extreme.tif in Resources */,
+				F5BF7E5D1AC73996008BF3DC /* ipod-shuffle.tif in Resources */,
+				F5BF7E521AC73996008BF3DC /* default@2x.pdf in Resources */,
+				F5BF7E4E1AC73996008BF3DC /* apple-watch.tif in Resources */,
+				F5BF7E601AC73996008BF3DC /* iwork.tif in Resources */,
+				F5BF7E671AC73996008BF3DC /* macbook.tif in Resources */,
+				F5BF7E481AC73996008BF3DC /* airport-express.tif in Resources */,
+				F5BF7E551AC73996008BF3DC /* final-cut-pro-x.tif in Resources */,
+				F5BF7E581AC73996008BF3DC /* imac-5k.tif in Resources */,
+				F5BF7E4B1AC73996008BF3DC /* aperture.tif in Resources */,
+				F5BF7E4F1AC73996008BF3DC /* apple-wireless-keyboard.tif in Resources */,
+				F5BF7E621AC73996008BF3DC /* mac-mini.tif in Resources */,
+				F5BF7E081AC73954008BF3DC /* Main.storyboard in Resources */,
+				F5BF7E631AC73996008BF3DC /* mac-pro.tif in Resources */,
+				F5BF7E651AC73996008BF3DC /* macbook-pro-13.tif in Resources */,
+				F5BF7E0D1AC73954008BF3DC /* LaunchScreen.xib in Resources */,
+				F5BF7E501AC73996008BF3DC /* battery-charger.tif in Resources */,
+				F5BF7E0A1AC73954008BF3DC /* Images.xcassets in Resources */,
+				F5BF7E571AC73996008BF3DC /* ilife.tif in Resources */,
+				F5BF7E5B1AC73996008BF3DC /* iphone6.tif in Resources */,
+				F5BF7E541AC73996008BF3DC /* eyeball.png in Resources */,
+				F5BF7E611AC73996008BF3DC /* logic-pro-x.tif in Resources */,
+				F5BF7E5C1AC73996008BF3DC /* ipod-nano.tif in Resources */,
+				F5BF7E4D1AC73996008BF3DC /* apple-tv.tif in Resources */,
+				F5BF7E681AC73996008BF3DC /* magic-mouse.tif in Resources */,
+				F5BF7E561AC73996008BF3DC /* icloud.tif in Resources */,
+				F5BF7E661AC73996008BF3DC /* macbook-pro-retina.tif in Resources */,
+				F5BF7E4C1AC73996008BF3DC /* apple-pay.tif in Resources */,
+				F5BF7E531AC73996008BF3DC /* display.tif in Resources */,
+				F5BF7E6C1AC73996008BF3DC /* star_uns.png in Resources */,
+				F5BF7E6B1AC73996008BF3DC /* star_sel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF7E101AC73954008BF3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BF7DF91AC73954008BF3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BF7E051AC73954008BF3DC /* ViewController.swift in Sources */,
+				F5BF7E711AC73999008BF3DC /* ProductLine.swift in Sources */,
+				F5BF7E031AC73954008BF3DC /* AppDelegate.swift in Sources */,
+				F5BF7E701AC73999008BF3DC /* Product.swift in Sources */,
+				F5BF7E731AC73AA0008BF3DC /* AppleProductsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF7E0E1AC73954008BF3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BF7E191AC73954008BF3DC /* Pretty_AppleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5BF7E141AC73954008BF3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BF7DFC1AC73954008BF3DC /* Pretty Apple */;
+			targetProxy = F5BF7E131AC73954008BF3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5BF7E061AC73954008BF3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BF7E071AC73954008BF3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5BF7E0B1AC73954008BF3DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BF7E0C1AC73954008BF3DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BF7E1A1AC73954008BF3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BF7E1B1AC73954008BF3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BF7E1D1AC73954008BF3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5BF7E1E1AC73954008BF3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5BF7E201AC73954008BF3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Debug;
+		};
+		F5BF7E211AC73954008BF3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BF7DF81AC73954008BF3DC /* Build configuration list for PBXProject "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF7E1A1AC73954008BF3DC /* Debug */,
+				F5BF7E1B1AC73954008BF3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BF7E1C1AC73954008BF3DC /* Build configuration list for PBXNativeTarget "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF7E1D1AC73954008BF3DC /* Debug */,
+				F5BF7E1E1AC73954008BF3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5BF7E1F1AC73954008BF3DC /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF7E201AC73954008BF3DC /* Debug */,
+				F5BF7E211AC73954008BF3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BF7DF51AC73954008BF3DC /* Project object */;
+}
